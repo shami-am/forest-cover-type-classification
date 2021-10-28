@@ -13,10 +13,10 @@ The data was downloaded from **archive.ics.uci.edu** which predicts forest cover
 # Tools
 - Software platform: Jupyter Notebook
 - Programming language: Python
-  - Includes libraries:
-        - SQLAlchemy
-        - sklearn
-        - Pandas
-        - Numpy
-        - Seaborn
-        - Matplotlib
+- Includes libraries:
+  - SQLAlchemy
+  - sklearn
+  - Pandas
+  - Numpy
+  - Seaborn
+  - Matplotlib
