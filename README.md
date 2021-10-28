@@ -2,11 +2,10 @@
 ## Introduction
 The United States of America has many diverse biomes (deserts, forests, mountains...etc).
 Forests in particular have many trees that form a cover over the forest.
-
-The types of these covers can be determined from certain factors; such as elevation and soil types. A classification Model can be used to predict the types of forest covers from given features.
+The types of these covers can be determined from certain factors; such as elevation and soil types.
 
 ## Problem statement
-Can this model be used to predict the classification of forest cover types?
+Can a classification model be used to predict the types of forest covers?
 
 ## Data Description
 The data was downloaded from **archive.ics.uci.edu** which predicts forest cover type from cartographic variables.
