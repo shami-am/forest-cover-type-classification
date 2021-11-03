@@ -20,3 +20,6 @@ The data was downloaded from **archive.ics.uci.edu** which predicts forest cover
   - Numpy
   - Seaborn
   - Matplotlib
+  - XGBoost
+  - SciPy
+  - Pickle
