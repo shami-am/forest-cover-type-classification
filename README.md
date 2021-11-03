@@ -1,4 +1,4 @@
-# cover-type-classification
+# forest-cover-type-classification
 ## Introduction
 The United States of America has many diverse biomes (deserts, forests, mountains...etc).
 Forests in particular have many trees that form a cover over the forest.
