@@ -1,0 +1,87 @@
+<html>
+<body>
+    <h3>Forest Cover Type Classification</h3>
+<div>
+  <form action="/predict" method="POST">
+    <label for="Elevation">Elevation</label>
+    <input type="number" step="0.01" id="Elevation" name="Elevation">
+    <br>
+    <label for="Aspect">Aspect</label>
+    <input type="number" step="0.01" id="Aspect" name="Aspect">
+    <br>
+    <label for="Slope">Slope</label>
+    <input type="number" step="0.01" id="Slope" name="Slope">
+    <br>
+    <label for="Horizontal_Distance_To_Hydrology">Horizontal Distance To Hydrology</label>
+    <input type="number" step="0.01" id="Horizontal_Distance_To_Hydrology" name="Horizontal_Distance_To_Hydrology">
+    <br>
+    <label for="Vertical_Distance_To_Hydrology">Vertical Distance To Hydrology</label>
+    <input type="number" step="0.01" id="Vertical_Distance_To_Hydrology" name="Vertical_Distance_To_Hydrology">
+    <br>
+    <label for="Horizontal_Distance_To_Roadways">Horizontal Distance To Roadways</label>
+    <input type="number" step="0.01" id="Horizontal_Distance_To_Roadways" name="Horizontal_Distance_To_Roadways">
+    <br>
+    <label for="Hillshade_Noon">Hillshade Noon</label>
+    <input type="number" step="0.01" id="Hillshade_Noon" name="Hillshade_Noon">
+    <br>
+    <label for="Horizontal_Distance_To_Fire_Points">Horizontal Distance To Fire Points</label>
+    <input type="number" step="0.01" id="Horizontal_Distance_To_Fire_Points" name="Horizontal_Distance_To_Fire_Points">
+    <br>
+    <label for="Wilderness_Area">Wilderness Area</label>
+    <input list="Wilderness_Area">
+    <datalist id="Wilderness_Area" name="Wilderness_Area">
+        <option id="Rawah_Wilderness_Area" value="Rawah">
+        <option id="Neota_Wilderness_Area" value="Neota">
+        <option id="Comanche_Peak_Wilderness_Area" value="Comanche Peak">
+        <option id="Cache_La_Poudre_Wilderness_Area" value="Cache la Poudre">
+    </datalist>
+    <label for="Soil_Types">Soil Types</label>
+    <input list="Soil_Types">
+    <datalist id="Soil_Types" name="Soil_Types">
+        <option id="Cathedral_Soil_Type" value="Cathedral">
+        <option id="Vanet_Ratake_Soil_Type" value="Vanet Ratake">
+        <option id="Haploborolis_Soil_Type" value="Haploborolis">
+        <option id="Ratake_Soil_Type" value="Ratake">
+        <option id="Vanet_Soil_Type" value="Vanet">
+        <option id="Vanet_Wetmore_Soil_Type" value="Vanet Wetmore">
+        <option id="Gothic_Soil_Type" value="Gothic">
+        <option id="Supervisor_Limber_Soil_Type" value="Supervisor Limber">
+        <option id="Troutville_Soil_Type" value="Troutville">
+        <option id="Bullwark_Catamount_1_Soil_Type" value="Bullwark Catamount 1">
+        <option id="Bullwark_Catamount_2_Soil_Type" value="Bullwark Catamount 2">
+        <option id="Legault_Soil_Type" value="Legault">
+        <option id="Catamount_Soil_Type" value="Catamount">
+        <option id="Pachic_Argiborolis_Soil_Type" value="Pachic Argiborolis">
+        <option id="Cryaquolis_Soil_Type" value="Cryaquolis">
+        <option id="Gateview_Soil_Type" value="Gateview">
+        <option id="Rogert_Soil_Type" value="Rogert">
+        <option id="Typic_Cryaquolis_Soil_Type" value="Typic Cryaquolis 1">
+        <option id="Typic_Cryaquolis_Soil_Type" value="Typic Cryaquolis 2">
+        <option id="Typic_Cryaquolis_Soil_Type" value="Typic Cryaquolis 3">
+        <option id="Leighcan1_Soil_Type" value="Leighcan 1">
+        <option id="Leighcan2_Soil_Type" value="Leighcan 2">
+        <option id="Leighcan3_Soil_Type" value="Leighcan 3">
+        <option id="Leighcan4_Soil_Type" value="Leighcan 4">
+        <option id="Granile_Catamount_Soil_Type" value="Granile Catamount">
+        <option id="Leighcan5_Soil_Type" value="Leighcan 5">
+        <option id="Leighcan6_Soil_Type" value="Leighcan 6">
+        <option id="Como_Legault_Soil_Type" value="Como Legault">
+        <option id="Como_Soil_Type" value="Como">
+        <option id="Leighcan_Catamount_Soil_Type" value="Leighcan Catamount">
+        <option id="Catamount_Rock_Soil_Type" value="Catamount Rock">
+        <option id="Leighcan_Catamount_Rock_Soil_Type" value="Leighcan Catamount Rock">
+        <option id="Cryorthents_Soil_Type" value="Cryorthents">
+        <option id="Cryumbrepts_Soil_Type" value="Cryumbrepts">
+        <option id="Bross_Soil_Type" value="Bross">
+        <option id="Rock_Outcrop_Soil_Type" value="Rock Outcrop">
+        <option id="Leighcan_Moran_Soil_Type" value="Leighcan Moran">
+        <option id="Moran_Cryorthents_Leighcan_Soil_Type" value="Moran Cryorthents Leighcan">
+        <option id="Comanche_Peak_Wilderness_Area" value="Moran Cryorthents Rock">
+        <option id="Unspecified_Soil_Type" value="Unspecified Type">
+    </datalist>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
