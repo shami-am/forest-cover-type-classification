@@ -1,7 +1,7 @@
 # Forest Cover Type Classification
 
 ## Abstract
-The goal of this project was to use classification models to predict the types of forest covers in different wilderness areas around the United States of America based on cetrain factors.
+The goal of this project was to use classification models to predict the types of forest covers in different wilderness areas around the United States of America based on certain factors.
 
 ## Data
 The data was downloaded from **archive.ics.uci.edu** which contains cartographic variables.
